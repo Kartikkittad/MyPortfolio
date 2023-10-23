@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: white;
+
+  min-height: 100%;
+  width: 100%;
+  display: block;
+  overflow-x: hidden;
+  /* font-weight: 500; */
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url(/public/assets/Satoshi-Regular.otf);
+}
+
+.img {
+  width: 500px;
+}
+
+img {
+  position: absolute;
+  top: -4rem;
+  right: 15rem;
+  z-index: -1;
+  /* object-fit: cover; */
+  /* height: 120vh; */
+  width: 1000px;
+  height: 1000px;
+  transform: scale(1.5);
+}
+
+html {
+  font-family: 'Satoshi-Regular', sans-serif;
+}

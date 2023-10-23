@@ -1,0 +1,96 @@
+.projectsPro {
+    /* height: 100vh; */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.headPro1 {
+    color: #14142b;
+    font-weight: 550;
+    font-size: 68px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.headersPro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 3rem;
+    margin-bottom: -80px;
+}
+
+.headPro2 {
+    padding-top: 30px;
+    color: #14142b;
+    font-weight: 500;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.paraPro2 {
+    padding-top: 10px;
+    color: #777990;
+}
+
+.headPro3 {
+    padding-top: 30px;
+    color: #14142b;
+    font-weight: 500;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.paraPro3 {
+    padding-top: 10px;
+    color: #777990;
+}
+
+.headPro4 {
+    padding-top: 30px;
+    color: #14142b;
+    font-weight: 500;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.paraPro4 {
+    padding-top: 10px;
+    color: #777990;
+}
+
+.case {
+    text-decoration: none;
+    color: #14142b;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.case:hover {
+    color: grey;
+    transition: 0.3s ease-in-out;
+}
+
+.btnPro {
+    background-color: #14142b;
+    color: white;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    font-size: .9rem;
+    font-weight: 550;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.btnPro:hover {
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    color: #14142b;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px rgb(204, 204, 204);
+}

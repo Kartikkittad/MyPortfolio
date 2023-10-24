@@ -52,6 +52,11 @@
     font-size: .9rem;
     font-weight: 550;
     margin-top: 2rem;
+    display: flex;
+    /* Add this line to make the text centering work */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center
 }
 
 .btn1:hover {

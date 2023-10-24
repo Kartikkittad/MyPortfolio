@@ -27,16 +27,16 @@ function nav() {
                         <a href="/contact" id="contact">Contact</a>
                     </li> */}
                     <li>
-                        <a href="/" className="a">Home</a>
+                        <Link to="home" spy={true} offset={-50} smooth={true} duration={200} className="a">Home</Link>
                     </li>
                     <li>
-                        <Link to="about" smooth={true} duration={200} className="a">About</Link>
+                        <Link to="about" spy={true} offset={-50} smooth={true} duration={200} className="a">About</Link>
                     </li>
                     <li>
-                        <a className="a" href="/projects">Projects</a>
+                        <Link to="projects" spy={true} offset={50} smooth={true} duration={200} className="a" >Projects</Link>
                     </li>
                     <li>
-                        <a className="a" href="/contacts" >Contact</a>
+                        <Link to="contacts" spy={true} offset={50} smooth={true} duration={200} className="a" >Contact</Link>
                     </li>
                 </ul>
             </nav>

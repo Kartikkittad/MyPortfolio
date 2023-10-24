@@ -7,18 +7,13 @@
     position: relative;
 }
 
-.about {
-    width: 100%;
-    margin: auto;
-    /* padding: 8rem 1rem 0 1rem; */
-}
-
-
-
 .projects {
     width: 100%;
-    /* margin: auto; */
+}
 
+.home {
+    margin: 0;
+    padding: 0;
 }
 
 .container {

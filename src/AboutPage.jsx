@@ -9,7 +9,7 @@ import res from '/assets/KartikKittad.pdf'
 export default function About() {
 
     return (
-        <>
+        <div id="about">
             <div className="abo">
                 <div id="about" className="info">
                     <h2 className="header">About me</h2>
@@ -25,7 +25,7 @@ export default function About() {
                     <div className="projects">
                         <img src={bg2} className="proImg" />
                         <h3 className="headers">Projects</h3>
-                        <p className="webInfo">Total 4 projects completed using Machine learning and various languages.</p>
+                        <p className="webInfo">Total 3 projects completed using Machine learning and various languages.</p>
                     </div>
                     <div className="problem">
                         <img src={bg3} className="proImg" />
@@ -47,6 +47,6 @@ export default function About() {
                 </a>
             </div >
 
-        </>
+        </div>
     )
 }

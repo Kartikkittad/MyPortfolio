@@ -14,7 +14,6 @@ import {
     MDBRow,
     MDBBtn
 } from 'mdb-react-ui-kit';
-
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 
@@ -50,7 +49,7 @@ function Projects() {
                                     <span class="node">mongoDB</span>
                                 </div>
                             </div>
-                            <a className="case" >Read case study ➜</a>
+
                             <br />
                             <a href="https://github.com/Kartikkittad/CampSearch">
                                 <button className="btnPro">Visit GitHub</button>
@@ -80,7 +79,6 @@ function Projects() {
                                     <span class="node">Figma</span>
                                 </div>
                             </div>
-                            <a className="case" >Read case study ➜</a>
                             <br />
                             <a href="https://github.com/Kartikkittad/EmotionTrace-NLP">
                                 <button className="btnPro">Visit GitHub</button>
@@ -101,7 +99,6 @@ function Projects() {
                                     <span class="node">HTML/CSS</span>
                                 </div>
                             </div>
-                            <a className="case" >Read case study ➜</a>
                             <br />
                             <a href="https://github.com/Kartikkittad/Product-Comparator">
                                 <button className="btnPro">Visit GitHub</button>

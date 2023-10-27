@@ -59,3 +59,15 @@
 .emailA:hover {
     color: inherit;
 }
+
+@media(max-width: 998px) {
+    .contHead {
+        font-size: 40px;
+    }
+
+    .contactCont {
+        font-size: 16px;
+        line-height: 3rem;
+        display: block;
+    }
+}

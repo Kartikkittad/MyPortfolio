@@ -18,7 +18,7 @@ body {
 }
 
 .img {
-  width: 500px;
+  max-width: 500px;
   height: 500px;
   margin-top: 10rem;
 }
@@ -35,4 +35,15 @@ img {
 
 html {
   font-family: 'Satoshi-Regular', sans-serif;
+}
+
+@media(max-width: 998px) {
+  .img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 280px;
+    height: 220px;
+  }
 }

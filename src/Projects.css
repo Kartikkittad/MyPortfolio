@@ -126,3 +126,54 @@
 .rowPro {
     gap: 4px;
 }
+
+@media(max-width: 998px) {
+    .headPro1 {
+        font-size: 40px;
+    }
+
+    .headersPro {
+        margin-bottom: -30rem;
+    }
+
+    .para1 {
+        font-size: 16px;
+        line-height: 1.7rem;
+    }
+
+    .headPro2,
+    .headPro3,
+    .headPro4 {
+        font-size: 20px;
+    }
+
+    .paraPro2,
+    .paraPro3,
+    .paraPro4 {
+        font-size: 14px;
+
+    }
+
+    .btnPro {
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .node {
+        height: 30px;
+        padding: 0.2rem;
+        font-size: 12px;
+    }
+
+    .rowPro {
+        gap: 8px;
+    }
+
+    iframe {
+        width: 320px;
+        padding-top: 20px;
+    }
+}

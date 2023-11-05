@@ -4,7 +4,7 @@ import bg from '/assets/web.svg'
 import bg2 from '/assets/project.svg'
 import bg3 from '/assets/code.svg'
 import bg4 from '/assets/Saly12.svg'
-import res from '/assets/KartikKittad.pdf'
+import res from '/assets/KartikHackerrankResume.pdf'
 
 export default function About() {
 

@@ -46,7 +46,7 @@ function App() {
           </div>
         </section>
         <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-          2023 Copyright © Kartik Kittad
+          2024 Copyright © Kartik Kittad
         </div>
       </MDBFooter>
     </>

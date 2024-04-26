@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <HomePage />
-      <img src="https://arpanneupane.com/_next/image?url=%2Fprogrammer-gif.gif&w=640&q=75" className="img"></img>
       <About />
       <Projects />
       <Contact />
@@ -46,7 +45,7 @@ function App() {
           </div>
         </section>
         <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-          2024 Copyright © Kartik Kittad
+          2023 Copyright © Kartik Kittad
         </div>
       </MDBFooter>
     </>

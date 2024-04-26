@@ -3,7 +3,6 @@
     max-width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    position: relative;
 }
 
 .projects {
@@ -15,29 +14,37 @@
     padding: 0;
 }
 
+.info {
+    flex: 1;
+}
+
+
+.img {
+    max-width: 50%;
+}
+
 .container {
     min-height: 100vh;
-    max-width: 100vw;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     margin-top: 3rem;
 }
 
 .name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #4e4b66;
-
 }
 
 .desc {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #14142b;
     margin-top: 0.6rem;
-    line-height: 5.5rem;
-    font-weight: 550;
-
+    line-height: 4rem;
+    font-weight: 700;
 }
 
 .btn1 {
@@ -50,7 +57,7 @@
     border-radius: 40px;
     font-size: .9rem;
     font-weight: 550;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center
@@ -66,8 +73,10 @@
 
 @media(max-width: 998px) {
     .container {
-        display: block;
-        margin-top: 24rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
     }
 
     .name {
@@ -81,10 +90,20 @@
         line-height: 2.4rem;
     }
 
+    .info {
+        flex-direction: column;
+    }
+
     .btn1 {
         margin: 0 auto;
         width: 180px;
         height: 60px;
         margin-top: 20px;
+        margin-bottom: 7rem;
+    }
+
+    .img {
+        order: -1;
+        margin-bottom: 2rem;
     }
 }

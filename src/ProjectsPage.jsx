@@ -15,9 +15,9 @@ import {
     MDBBtn
 } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import Campground from '../public/assets/campground.png';
-import emotion from '../public/assets/emotion.png';
-import product from '../public/assets/product.png';
+import Campground from '/assets/Campground.png';
+import emotion from '/assets/emotion.png';
+import product from '/assets/product.png';
 import study from '/assets/study.png';
 import destov from '/assets/Destov.png';
 
